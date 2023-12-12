@@ -10,7 +10,7 @@ body {
     background-color: black;
 }
 .container__inner {
-    background-image: url('/img/burger.png');
+    background-image: url('./img/burger.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
