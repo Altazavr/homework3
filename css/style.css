@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container__inner {
+    background-image: url('./img/burger.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    margin-bottom: 100px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+nav {
+    margin-left: 191.77px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 88px;
+}
+.list-item {
+    color: white;
+    width: 162px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.busket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-dollar-sign {
+    color: white;
+    margin-left: 253px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 11px;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 360px;
+    margin-right: 360px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-image: url(../img/burger.png);
+    width: 1286px;
+}
+.updated__menu {
+}
+.new-menu {
+    padding: 12px 16px;
+    border-radius: 100px;
+    background: var(--d-3320-f, #D3320F);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.updated-heading {
+    margin: 0;
+    color: white;
+    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.updated-description {
+    color: white;
+    margin: 56px 0;
+    width: 608px;
+    font-size: 24px;
+    font-weight: 600;
+}
+button.view-inner {
+    display: flex;
+    padding: 19px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
+    color: #191411;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
