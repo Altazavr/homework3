@@ -4,8 +4,8 @@ body {
     box-sizing: border-box;
 }
 @font-face {
-    font-family: 'Gilroy';
-    src: url('/fonts/Gilroy-Light.otf') format('opentype');
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Light.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,6 +18,10 @@ body {
 .container__inner {
     background-color: black;
     width: 1920px;
+    /* background-image: url('./img/burger.png'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
 }
 header {
     display: flex;
@@ -41,12 +45,12 @@ nav {
 }
 .list-item {
     color: white;
-    width: 162px;
+    width: 200px;
     height: 22px;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-    font-family: 'Gilroy';
+    font-family: 'gilroy';
 }
 .busket {
     display: flex;
@@ -67,7 +71,12 @@ nav {
 main {
     margin-left: 360px;
     margin-right: 360px;
-    margin-bottom: 180px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    /* background-image: url(../img/burger.png); */
+    width: 1286px;
+    /* position:relative */
 }
 article {
     margin-bottom: 200px;
@@ -280,7 +289,7 @@ section {
 }
 .order__box {
     width: 424px;
-    height: 480px;
+    height: 565px;
     border-radius: 16px;
     border: 1px solid #353535;
     background: #211A16;
@@ -350,4 +359,5 @@ footer {
     font-weight: 600;
     cursor: pointer;
     font-family: 'Gilroy', serif;
+    width: 200px;
 }
